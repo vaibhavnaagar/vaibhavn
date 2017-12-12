@@ -1,18 +1,15 @@
 # links section data
-- last_name: Name 1
-  first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+- type: Location
+  desc: F-317, Hall-9, IIT Kanpur
+  goto: https://goo.gl/maps/qt8WUf9Hg6y
+  icon: fa-map-marker
 
-- last_name: Donate
-  first_name: Jalpc
-  desc: Support Jalpc
-  website: http://www.jarrekk.com/donate/
-  email: me@jarrekk.com
+- type: Email Me At
+  desc: vaibhavn@iitk.ac.in
+  goto: mailto:vaibhavn@iitk.ac.in
+  icon: fa-envelope
 
-- last_name: LN
-  first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+- type: Call Me At
+  desc: (+91) 7843850644
+  goto: tel:07843850644
+  icon: fa-mobile

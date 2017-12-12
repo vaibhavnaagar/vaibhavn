@@ -2,7 +2,7 @@
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="link.link">Link</span></h1>
+            <h1><span data-i18n="link.link">Contact</span></h1>
         </div>
     </div>
     <div class="row">
@@ -18,20 +18,39 @@
         <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else if loopindex == 2 %} zoomIn {% else %} fadeInRight {% endif %}">
         {% endif %}
         <div class="team-member">
-            <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
+            <a href="{{ link.goto }}" target="_blank"><i class="fa {{ link.icon }} fa-5x"></i></a>
+            <h3><span class="navy">{{ link.type }}</span></h3>
             <p>{{ link.desc }}</p>
-            <ul class="list-inline social-icon">
-                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
-                </li>
+            <!-- <ul class="list-inline social-icon">
                 <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
         </div>
     {% endfor %}
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+            <ul class="list-inline social-icon">
+              {% if site.author.github_username %}
+              <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
+              {% endif %}
+              {% if site.author.linkedin_id %}
+              <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+              {% endif %}
+              {% if site.author.facebook_username %}
+              <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
+              {% endif %}
+              {% if site.author.twitter_username %}
+              <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+              {% endif %}
+              {% if site.author.email %}
+              <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+              {% endif %}
+              {% if site.author.cv %}
+              <li><a href="{{ site.baseurl }}{{ site.author.cv }}" target="blank" ><i class="fa fa-file-pdf-o"></i></a></li>
+              {% endif %}
+            </ul>
             <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
         </div>
     </div>

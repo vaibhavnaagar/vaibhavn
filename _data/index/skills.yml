@@ -1,6 +1,6 @@
 # skills section data
 
-label: Ability
+label: Interest
 id : cs
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+aspects: Coding, Anime, Excursion, Stargazing, Social Networking, Sleeping, Food
+percentage: 90, 65, 80, 50, 30, 70, 85
