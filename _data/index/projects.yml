@@ -5,7 +5,7 @@
   i18n: jalpc
   gh_user: vaibhavnaagar
   repo: pixelDA_GAN
-  img: /static/assets/img/projects/pixeldagan.png
+  img: /static/assets/img/projects/pixeldagan.jpg
   desc: Unsupervised pixel-level domain adaptation with GAN in which the idea is to train the generator to produce target domain data conditioned on source domain data and train classifier on generated data without using the target domain labels
   tag: Computer Vision
   report: /static/assets/pdf/report/pixeldagan.pdf
