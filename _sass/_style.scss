@@ -2503,11 +2503,16 @@ body {
     height: auto;
   }
   .header-back {
-    height: 470px;
+    height: 100%;//470px;
     width: 100%;
-    background-position: 50% 0;
+    min-width: 100%;
     background-repeat:  no-repeat;
-  }
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+  	background-attachment: fixed;
+    background-position: 50% 0;
+    }
   .carousel {
     height: 470px;
   }
