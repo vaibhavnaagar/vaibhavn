@@ -33,10 +33,14 @@
                   {% endif %}
                 </h2>
                   <p class="project-desc"><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
-                  {% if project.repo %}
+                  {% if project.repo or project.report %}
                   <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      {% if project.report %}
+                      <a target="_blank" style="width: 65px;" href="{{ project.report | prepend: site.baseurl }}" class="btn btn-white btn-xs">Report</a>&emsp;&emsp;
+                      {% endif %}
+                      {% if project.repo %}
+                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" class="btn btn-white btn-xs">Code</a>
+                      {% endif %}
                       <div style="height: 10px;"></div>
                   </div>
                   {% endif %}
