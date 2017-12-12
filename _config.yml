@@ -2,10 +2,10 @@
 
 # Website settings
 title: Vaibhav
-description: Jack's blog,use Jekyll and github pages.
-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
+description: Vaibhav's personal website,use Jekyll and github pages.
+keywords: Vaibhav,blog,Jekyll,github,gh-pages
 baseurl:  /vaibhavn # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-# url: https://vaibhavnaagar.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: https://vaibhavnaagar.github.io/vaibhavn  # url should be 'http://<github_username>.github.io/homepage' as before
 url: http://127.0.0.1:4000
 img_path: /vaibhavn/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
@@ -32,11 +32,11 @@ author:  # change following line to your infomation.
     - name: icon-cplusplus
     - name: icon-shell
     - name: icon-mysql-alt
-  desc: I'm a Senior Undergradute student in the Computer Science department at Indian Institute of Technology, Kanpur. I am broadly interested in two Networking, Machine Learning and Computer Vision. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Apart from academic pursuits, in free time I like to watch anime and videos from vsauce and some other science channels. Other than that I like to play Badminton, chess, cricket and love to swim.
+  desc: I'm a Senior Undergradute student in the Computer Science department at Indian Institute of Technology, Kanpur. I am broadly interested in Networking, Machine Learning and Computer Vision. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Apart from academic pursuits, in free time I like to watch anime and videos from vsauce and some other science channels. Other than that I like to play Badminton, chess, cricket and love to swim.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+  name: vaibhav
 
 # analytics
 ## google analytics
