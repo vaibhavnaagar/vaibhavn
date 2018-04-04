@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: Vaibhav  # Be used at blog posts' author.
   first_name: Vaibhav  # Be used at index page about me section.
   last_name: Nagar  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
   github_username: vaibhavnaagar  # Leave blank if you don't have now
   linkedin_id: vaibhav-nagar-81a0b4b8 # Leave blank if you don't have now
   facebook_username: vaibhav.naagar4  # Leave blank if you don't have now
