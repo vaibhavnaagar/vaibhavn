@@ -1,8 +1,17 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: Wikipedia Map API
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: wikipedia-map
+  img: /static/assets/img/projects/wiki.jpg
+  desc: An API server and parser to get the ordered wiki links and page titles of wikipedia articles using MediaWiki API. API server runs over Haskell stack and web applications request particular actions by suitably choosing query paramters
+  report: /static/assets/pdf/report/wikimap.pdf
+
 - name: Domain Adaptation using GAN
-  i18n: jalpc
+  i18n: cpython
   gh_user: vaibhavnaagar
   repo: pixelDA_GAN
   img: /static/assets/img/projects/pixeldagan.jpg
