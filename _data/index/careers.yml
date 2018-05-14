@@ -1,6 +1,21 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Auquan
+    i18n: company_a
+  desc:
+    detail: Bengaluru, India
+    logo: /static/assets/img/experience/auquan.png
+    i18n: company_a_desc
+  date:
+    detail: Jan, 2018 - Apr, 2018
+    i18n: company_a_date
+  job:
+    detail: Quant Research Intern
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
     detail: Adobe Systems
     i18n: company_a
   desc:
@@ -8,7 +23,7 @@
     logo: /static/assets/img/experience/adobe-logo.jpg
     i18n: company_a_desc
   date:
-    detail: May, 2017 - July, 2017
+    detail: May, 2017 - Jul, 2017
     i18n: company_a_date
   job:
     detail: Research Intern
@@ -23,7 +38,7 @@
     logo: /static/assets/img/experience/monet.png
     i18n: company_b_desc
   date:
-    detail: May, 2016 - July, 2016
+    detail: May, 2016 - Jul, 2016
     i18n: company_b_date
   job:
     detail: Software Developer
