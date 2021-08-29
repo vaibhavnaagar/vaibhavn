@@ -19,7 +19,7 @@ author:  # change following line to your infomation.
   linkedin_id: vaibhav-nagar-81a0b4b8 # Leave blank if you don't have now
   facebook_username:  # Leave blank if you don't have now
   twitter_username: vaibhavnaagar77  # Leave blank if you don't have now
-  email: naagarvaibhav19@gmail.com  # Leave blank if you don't have now
+  email: vnagar3@gatech.edu  # Leave blank if you don't have now
   cv:  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -32,7 +32,7 @@ author:  # change following line to your infomation.
     - name: icon-cplusplus
     - name: icon-shell
     - name: icon-mysql-alt
-  desc: I'm a Computer Science graduate at Indian Institute of Technology, Kanpur. I am broadly interested in Networking, Machine Learning and Computer Vision. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Apart from academic pursuits, in free time I like to watch anime and videos from vsauce and some other science channels. Other than that I like to play Badminton, chess, cricket and love to swim.
+  desc: I am a graduate student in the Cybersecurity (Infosec track) at the College Of Computing in Georgia Tech. I am broadly interested in Cybersecurity and Networking. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Apart from academic pursuits, in free time I like to watch anime and videos from vsauce and some other science channels. Other than that I like to play Badminton, chess, table tennis, cricket and love to swim.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
